@@ -42,12 +42,12 @@ class Header extends Component {
 
                 <div className="wrap">
 
-                    <div className="logo_wrap">
+                   <div className="logo_wrap">
                         <Link to="/">
-                            <img src={`${webConfig.siteURL}/assets/graphics/logo.png`} alt="Logo" className="dark"/>
-                            <img src={`${webConfig.siteURL}/assets/graphics/logo_white.png`} alt="Logo" className="white"/>
+                           <img src={`${webConfig.siteURL}/assets/graphics/logo.png`} alt="Logo" className="dark"/>
+                           <img src={`${webConfig.siteURL}/assets/graphics/logo_white.png`} alt="Logo" className="white"/>
                         </Link>
-                    </div>
+                    </div> 
 
                     <div className="mobile">
                         <span className={classNames({'icon': true, 'mobileNavActive': this.state.mobileToggle })} onClick={this.toggleMobileNav.bind(this)}>
@@ -68,7 +68,7 @@ class Header extends Component {
                                     <NavLink activeClassName="active" to="/about">About</NavLink> 
                                 </li>
                                 <li className="last">
-                                    <NavLink activeClassName="active" to="/contact">Contact</NavLink>
+                                    <NavLink activeClassName="active" to="/contact">Let's Talk</NavLink>
                                 </li>
                             </ul>
                         </nav>
